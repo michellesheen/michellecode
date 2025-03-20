@@ -131,6 +131,14 @@ img {
     padding-bottom: .1em;
 }
 
+
+#castle {
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+    
+}
+
 /* _____________________________________________________________________________ */
 
 @media (orientation: portrait) {
