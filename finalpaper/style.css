@@ -10,23 +10,22 @@ body {
 
     width: 500 px;
     margin: 10 auto;
-    background-color: #ede9dd
+    background-color: #f0e1ff
 
 }
 
 h1 {
-    font-family: "amador", sans-serif;
-    font-weight: 100;
+    font-family: "sedgwick", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 3em;
-    color:black;
+    font-size: 3.5em;
 }
 
 h2 /* HED */ {
     font-family: "nicholas", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2em;
 
 
 }
@@ -35,7 +34,7 @@ h3 /* DEK */ {
     font-family: "nicholas", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 1.7em;
 
 }
 
@@ -58,7 +57,7 @@ p {
 #nav_bar {
     display: flex;
     flex-direction: row;
-    background-color: #ede9dd;
+    background-color:  #f0e1ff;
     padding-bottom: .5em;
     padding-top: 1em;
 
@@ -66,7 +65,7 @@ p {
     
 #nav_bar a:hover {
     background-color: none;
-    color: #763382;
+    color: #bc7ec7;
     }
     
 .nav_item {
@@ -77,10 +76,40 @@ p {
     }
           
 .nav_item a{
-    color:black;
+    color:rgb(93, 30, 92);
     text-decoration: none;
-    }    
+    }
+
+.masthead a:link{
+        text-decoration: none;
+        color:rgb(93, 30, 92);
+    }
 
 /* _____________________________________________________________________________ */
 /* FINAL PAPER */
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.sub {
+    padding-top: 1em;
+}
+
+
+.source {
+    padding-bottom: .1em;
+}
+
+/* _____________________________________________________________________________ */
+
+@media (orientation: portrait) {
+    #content {
+         width: 100%
+     }
+   }
+   
