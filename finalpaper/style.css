@@ -27,7 +27,7 @@ h2 /* HED */ {
     font-style: normal;
     font-size: 2em;
 
-
+    color: #9c4269;
 }
 
 h3 /* DEK */ {
@@ -63,6 +63,16 @@ p {
 
     }
     
+a:link{
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover{
+    background-color: none;
+    color:#9c4269;
+}
+
 #nav_bar a:hover {
     background-color: none;
     color: #bc7ec7;
@@ -85,6 +95,11 @@ p {
         color:rgb(93, 30, 92);
     }
 
+
+img {
+    border: 5px solid #9c4269;
+      }
+
 /* _____________________________________________________________________________ */
 /* FINAL PAPER */
 
@@ -94,6 +109,17 @@ p {
     margin-right: auto;
     width: 80%;
     text-align: center;
+}
+
+#front {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+
+    padding-bottom: 1em;
+
 }
 
 .sub {
